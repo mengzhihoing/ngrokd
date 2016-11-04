@@ -14,7 +14,7 @@ wget https://www.kernel.org/pub/software/scm/git/git-2.6.0.tar.gz
 </pre>
 
 3、解压git
-</pre>
+<pre>
 tar zxvf git-2.6.0.tar.gz
 </pre>
 
