@@ -151,12 +151,8 @@ killall nginx
 执行这条命令就可以了，本文结束！
 
 
-其中的tcp本地端口XXXX是OPENVPN的默认端口。YYYY是tcp远程端口。
 <pre>
-ngrokc -SER[Shost:tunnel.qydev.com,Sport:4443,Atoken:] -AddTun[Type:http,Lhost:192.168.123.1,Lport:80,Sdname:ABCDE] & #UI设置自动生成
-ngrokc -SER[Shost:tunnel.qydev.com,Sport:4443,Atoken:] -AddTun[Type:tcp,Lhost:192.168.123.1,Lport:XXXX,Rport:YYYY] & #UI设置自动生成
+ngrokc -SER[Shost:ngrokd.ml,Sport:4443,Atoken:bf7b9226883affe7afb] -AddTun[Type:tcp,Lhost:192.168.123.1,Lport:1688,Rport:45536] -AddTun[Type:http,Lhost:192.168.123.1,Lport:80,Sdname:home] &
 </pre>
-关键是服务器地址：tunnel.qydev.com与其端口4443，不需要注册就可能使用。
-端口号：XXXX   YYYY     是数字
 kms tcp 1688
 
