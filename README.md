@@ -152,7 +152,7 @@ killall nginx
 
 
 <pre>
-ngrokc -SER[Shost:ngrokd.ml,Sport:4443,Atoken:bf7b9226883affe7afb] -AddTun[Type:tcp,Lhost:192.168.123.1,Lport:1688,Rport:45536] -AddTun[Type:http,Lhost:192.168.123.1,Lport:80,Sdname:home] &
+ngrokc -SER[Shost:server.ngrok.cc,Sport:4443,Atoken:a4fc4d80caf88ef5eb932889e7cfc8cc] -AddTun[Type:tcp,Lhost:192.168.123.1,Lport:1688,Rport:45536] -AddTun[Type:http,Lhost:192.168.123.1,Lport:80,Sdname:xuanyuan] &
 </pre>
 kms tcp 1688
 
